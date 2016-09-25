@@ -1,0 +1,103 @@
+@import 'variaveis';
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  border-top: 2px solid #fff;
+  font-size: 1.3rem;
+  a{
+    color: #fff;
+    &:hover{
+      background-color: transparent !important;
+      border-bottom: 2px solid $roxoEscuro;
+      transition: ease 0.2s;
+    }
+  }
+  i{
+    color: #fff;
+  }
+}
+.menuScroll{    
+  background: rgba(144, 22, 86,0.9);
+  transition: ease 0.2s;
+  a{
+    color: #fff;
+    &:hover{
+      background-color: #fff !important;
+      color: $roxoEscuro;
+      border-bottom:none;
+      transition: ease 0.6s;
+    }
+  }
+} 
+h1, h2, h3, h4{    
+  text-transform: uppercase;
+
+}
+//Botao padrao CTA
+.cta{
+  color: #fff;
+  background: $roxo;
+  border-bottom:2px solid $roxoEscuro;
+  &:hover{
+    color: #fff;
+    background: $roxoEscuro;
+    transition: ease 0.2s;
+  }
+}
+.wellcome{
+  background:url('../img/fundo-header.png')no-repeat;
+  color: #fff;
+  min-height:500px; 
+  p{
+    font-size: 1.3rem;
+  }
+  .mockup{
+    position: relative;
+    top: 130px;
+  }
+}
+
+.blocoCta{
+   background:url('../img/bloco-cta.png')no-repeat;
+  background-size: cover;
+  h4, p{
+    color: #fff;
+  }
+}
+footer{
+  background: $cinza;
+  color: #fff;
+  p{
+    font-size: 10px;
+  }
+}
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+  .navbar{
+    background: rgba(144, 22, 86,0.9);
+    text-align: center;
+    a {
+      font-size: 2rem;
+      &:hover{
+       border: none;
+        color: $roxo;
+      }
+    }
+  }
+  .logo{
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  p{
+    font: 1rem;
+  }
+}

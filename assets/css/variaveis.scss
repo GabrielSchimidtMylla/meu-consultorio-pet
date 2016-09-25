@@ -1,0 +1,31 @@
+$roxo:#b92a75;
+$roxoEscuro:#901656;
+$cinza: #151515;
+$azul: #447df7;
+
+$padding:10;
+
+
+@for $i from 1 through $padding{
+//  Criando espacamento inicio do elemento
+  .paddingTop-#{$i}{
+    padding-top: 10px * $i
+      }
+//  Criando espacamento final do elemento
+  .paddingBottom-#{$i}{
+    padding-bottom:10px * $i 
+    }
+  .marginBottom-#{$i}{
+    margin-bottom:10px * $i 
+    }
+  }
+//Classe cores
+.roxo{
+  color: $roxo;
+}
+.roxoEscuro{
+  color: $roxoEscuro;
+}
+.azul{
+  color: $azul;
+}
