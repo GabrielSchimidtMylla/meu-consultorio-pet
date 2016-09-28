@@ -50,15 +50,17 @@ h1, h2, h3, h4{
   }
 }
 .wellcome{
-  background:url('../img/fundo-header.png')no-repeat;
+  background:url('../img/fundo-header.jpg')no-repeat fixed;
+  position: relative;
   color: #fff;
-  min-height:500px; 
+  background-size: cover;
   p{
     font-size: 1.3rem;
   }
   .mockup{
     position: relative;
-    top: 130px;
+    top: 80px;
+    z-index: 1;
   }
   h2{
     font-size: 2rem;
@@ -67,7 +69,16 @@ h1, h2, h3, h4{
     font-size: 1.5rem;
   }
 }
-
+.border-clip{
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    background: #fff;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+}
 .blocoCta{
    background:url('../img/bloco-cta.png')no-repeat;
   background-size: cover;
