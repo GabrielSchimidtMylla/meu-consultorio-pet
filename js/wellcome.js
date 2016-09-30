@@ -1,5 +1,5 @@
 //<!--INICIANDO ANIMAÇÕES-->
-new WOW().init();
+//new WOW().init();
 $(function () {
   $(window).on("scroll", function () {
     if ($(window).scrollTop() > 100) {

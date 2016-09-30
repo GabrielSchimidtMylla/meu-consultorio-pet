@@ -43,9 +43,20 @@ h1, h2, h3, h4{
   color: #fff;
   background: $roxo;
   border-bottom:2px solid $roxoEscuro;
-  &:hover{
+  &:hover, &:focus{
     color: #fff;
     background: $roxoEscuro;
+    transition: ease 0.2s;
+  }
+}
+.ctaAzul{
+  color: #fff;
+  background: $azul;
+  border-bottom:2px solid $azulEscuro;
+  padding-bottom: 10px;
+  &:hover, &:focus{
+    color: #fff;
+    background: $azulEscuro;
     transition: ease 0.2s;
   }
 }
@@ -127,3 +138,4 @@ footer{
 .moda-ja-cadastrado{
   border-right: 1px solid #ccc;
 }
+
