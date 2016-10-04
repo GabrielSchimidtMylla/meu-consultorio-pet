@@ -12,8 +12,6 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/bootstrap-social.css">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <!--[if IE]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -47,7 +45,7 @@
           <div class="col-md-12">
             <h3>acesse nossa versão <u>grátis</u> por 30 dias</h3> <a href="#acessar" class="btn cta" data-toggle="modal" data-target="#acessarModal"><i class="fa fa-heart" aria-hidden="true"></i> Acesse gratis</a> </div>
         </div>
-        <div class="col-md-5"> <img src="img/mockup-screen.png" alt="Exemplos de telas" class="mockup wow bounceInDown" data-wow-delay="0.2s"> </div>
+        <div class="col-md-5"> <img src="img/mockup-screen.png" alt="Exemplos de telas" class="mockup wow bounceInDown img-responsive" data-wow-delay="0.2s"> </div>
       </div>
     </div>
     <div class="border-clip"></div>
@@ -69,10 +67,10 @@
         <p class="text-justify"> Cadastro de Clientes, Agenda de Atendimento, histórico de Atendimentos, Plano de Vacinas, Emissão de Receitas, Termos de Responsabilidade, Relatórios Gerenciais, Gráficos, Cadastro de Produtos e Serviços, Notificações SMS, E-mail Marketing, Controle Financeiro e muito mais.</p>
       </div>
     </div>
-    <hr>    
+    <hr>
     <!--SEGUNDO BLOCO esquerda-->
     <div class="row wow bounceInRight marginTop-2 marginBottom-2">
-     <!--ICONE-->
+      <!--ICONE-->
       <div class="col-md-1 text-left paddingTop-1"> <i class="fa fa-cloud-upload fa-5x roxoEscuro wow fadeIn hidden-xs" aria-hidden="true" data-wow-delay="0.4s"></i> </div>
       <div class="col-md-11">
         <h4>Sistema na Nuvem</h4>
@@ -86,16 +84,12 @@
       <div class="col-md-1 text-right paddingTop-1"> <i class="fa fa-paint-brush fa-5x roxo hidden-xs wow fadeIn" aria-hidden="true" data-wow-delay="0.4s"></i> </div>
       <div class="col-md-11">
         <h4>Design Inteligente</h4>
-        <p> Intuitivo e fácil de usar o Meu Consultório Pet foi desenvolvido para que você e sua equipe consiga trabalhar de forma ágil e inteligente. Sistema responsivo que possibilita acesso  em Desktops, tables e smartphones.
-</p>
+        <p> Intuitivo e fácil de usar o Meu Consultório Pet foi desenvolvido para que você e sua equipe consiga trabalhar de forma ágil e inteligente. Sistema responsivo que possibilita acesso em Desktops, tables e smartphones. </p>
       </div>
     </div>
   </section>
   <div class="container-fluid marginBottom-3 paddingTop-3 paddingBottom-3 fundoCinzaClaro">
-    <div class="col-md-12 text-center">
-      <a href="#" class="btn ctaAzul" data-toggle="modal" data-target="#contatoModal"><i class="fa fa-comments-o fa-2x" aria-hidden="true"></i> Vamos Conversa?</a>
-    </div>
-    
+    <div class="col-md-12 text-center"> <a href="#" class="btn ctaAzul" data-toggle="modal" data-target="#contatoModal"><i class="fa fa-comments-o fa-2x" aria-hidden="true"></i> Vamos Conversa?</a> </div>
   </div>
   <section class="container-fluid blocoCta">
     <div class="container paddingTop-2 paddingBottom-2">
@@ -108,8 +102,7 @@
           <div class="form-group">
             <input type="text" class="form-control" id="name" placeholder="Como gostaria de ser chamado?">
             <br/>
-            <input type="email" class="form-control" id="email" placeholder="Qual é seu email?" required> 
-            </div>
+            <input type="email" class="form-control" id="email" placeholder="Qual é seu email?" required> </div>
           <div class="text-right">
             <button class="btn cta"><i class="fa fa-paper-plane" aria-hidden="true"></i> Enviar</button>
           </div>
@@ -117,7 +110,7 @@
       </div>
     </div>
   </section>
-<!--
+  <!--
   <section class="container">
     <div class="col-md-12 text-center">
       <h3> amet aliquam vel, ullamcorper </h3>
@@ -161,19 +154,19 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Aqui onde tudo começa.</h4>
-          <p>Coloque seu email e sua senha caso ja tenha uma conta caso contrario vamos criar uma conta para você, nao demora nem 
-            <strong><i class="fa fa-clock-o" aria-hidden="true"></i> 2min!</strong></p>
+          <p>Coloque seu email e sua senha caso ja tenha uma conta caso contrario vamos criar uma conta para você, nao demora nem <strong><i class="fa fa-clock-o" aria-hidden="true"></i> 2min!</strong></p>
         </div>
         <div class="modal-body row">
           <form>
             <div class="col-md-6 moda-ja-cadastrado">
               <h4>Ja é cadastrado?</h4>
               <div class="form-group">
-                <input type="text" class="form-control" id="name" placeholder="Como gostaria de ser chamado?">
+                <input type="text" class="form-control" id="name" placeholder="Nome/Email">
                 <br/>
-                <input type="email" class="form-control" id="emailModal" placeholder="Qual é seu email?" required> </div>
+                <input type="password" class="form-control" id="emailModal" placeholder="Senha" required> </div>
               <div class="row">
                 <div class="col-md-12 text-right">
+                 <a href="#"><small>Esqueceu sua senha?</small></a>
                   <button class="btn btn-success"><i class="fa fa-paper-plane" aria-hidden="true"></i> Entrar</button>
                 </div>
               </div>
@@ -181,32 +174,29 @@
           </form>
           <div class="col-md-6">
             <h4>Gostaria de se cadastrar?</h4>
+            <form>
             <div class="form-group">
-              <a class="btn btn-block btn-social btn-facebook">
-                <span class="fa fa-facebook"></span>Cadastrar usando Facebook
-              </a>
-              <small class="center-block text-center">OU</small>
-              <a class="btn btn-block btn-social btn-google">
-                <span class="fa fa-google"></span>Cadastrar usando Google
-              </a>
-              <div class="col-md-12">
-                <p class="text-right">
-                  <a href="#"><small>cadastre-se usando seu email.</small></a>
-                </p>
+              <input type="text" class="form-control" id="nameCadastrar" placeholder="Como gostaria de ser chamado?" required>
+              <br/>
+              <input type="email" class="form-control" id="emailModalCadastrar" placeholder="Qual é seu email?" required> </div>
+               <div class="row">
+                <div class="col-md-12 text-right">
+                  <button class="btn btn-danger"><i class="fa fa-user-plus" aria-hidden="true"></i> Cadastrar</button>
+                </div>
               </div>
-            </div>
+              </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <script src="https://use.fontawesome.com/bb1a277f5d.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-      <script src="js/wow.js"></script>
-      <script src="js/wellcome.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/bb1a277f5d.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/wellcome.js"></script>
 </body>
 
 </html>
